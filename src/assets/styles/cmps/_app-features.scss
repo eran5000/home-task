@@ -1,0 +1,35 @@
+.app-features{
+    height: 508px;
+    width: 880px;
+    display: grid;
+    column-gap: 130px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+
+    img{
+        max-width: 104px;
+        max-height: 104px;
+    }
+
+    .item{
+        align-self: center;
+        align-items: center;
+        text-align: center;
+        width: 349px;
+        height: 215px;
+
+        h4{
+            padding-top: 28px;
+        }
+        
+        p{
+            padding-top: 15px;
+            margin: 0;
+            max-width: 46ch;
+            font-size: 14px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    }
+}

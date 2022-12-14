@@ -14,10 +14,15 @@
 
 
 // Components
-@import "cmps/main-footer";
-@import "cmps/main-header";
+@import "cmps/app-features";
+@import "cmps/app-join";
+@import "cmps/app-main-feature";
+@import "cmps/app-reviews";
+@import "cmps/app-summary";
 
 // Views
+@import "views/main-footer";
+@import "views/main-header";
 @import "views/home"
 
 

@@ -1,0 +1,10 @@
+.main-container{
+    display: grid;
+    height: 3619px;
+    justify-items: center;
+    grid-template-columns: 100px 1fr 100px;
+
+    >*{
+        grid-column: 2;
+    }
+}
