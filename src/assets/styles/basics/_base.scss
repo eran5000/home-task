@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: $clr-Primary-main;
+    line-height: 1.6;
+    color: $clr-white;
+}
+
+body {
+    font-family: OpenSans-VariableFont;
+    font-size: 14px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway-VariableFont;
+    margin: 0;
+    line-height: 1;
+}
+
+button, span, section, div {
+    font-family: Airbnb-Cereal-Book;
+}
+
+section, main, footer {
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+

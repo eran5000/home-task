@@ -1,0 +1,18 @@
+// Colors
+$clr-Primary-email: hsl(217, 28%, 15%);
+$clr-Primary-main: hsl(218, 28%, 13%);
+$clr-Primary-footer: hsl(216, 53%, 9%);
+$clr-Primary-testimonials: hsl(216, 53%, 9%);
+$clr-accent-Cyan: hsl(176, 68%, 64%);
+$clr-accent-Blue: hsl(198, 60%, 50%);
+$clr-white: hsl(0, 0%, 100%);
+
+// LAYOUT
+$layoutPadding: 20px;
+
+// Breakpoints
+$mobile-breakpoint: 375px;
+$desktop-breakpoint: 1440px;
+
+$padded-break-mobile: $mobile-breakpoint - $layoutPadding;
+$padded-desktop-breakpoint: $desktop-breakpoint - $layoutPadding;
